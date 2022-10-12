@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labels_grouping</title>
+</head>
+<body>
+    <form action="../" method="post">
+        <fieldset>
+            <legend>Personal data</legend>
+            <label for="name">Name:</label></br>
+            <input type="text" id="name" name="name"/></br>
+            <label for="email">Email</label></br>
+            <input type="email" id="email" name="email"/></br>
+            <label for="phoneNo">phoneNo</label></br>
+            <input type="text" id="phoneNo" name="phoneNo"/>
+        </fieldset>
+    </br>
+        <fieldset>
+        <legend>Location</legend>
+        <label for="city">City</label></br>
+        <input type="text" id="city" name="city"/></br>
+        <label for="street">Street</label></br>
+        <input type="text" id="street" name="street"/></br>
+        <label for="streetNo">Street number</label></br>
+        <input type="number" id="streetNo" name="streetNo" />
+        </fieldset>
+        <br>
+        <fieldset>
+        <lgend>Event info</legend>
+        <label for="eventType">Event type</label></br>
+        <select>
+          <option value="birthday">Birthday</option>
+          <option value="wedding" selected>Wedding</option>
+          <option value="company">Company</option>
+        </select></br></br>
+        <label for="numberOfGuests">Number of guests</label></br>
+        <input type="number" id="numberOfGuests" name="numberOfGuests" placeholder=15 />
+        </fieldset>
+        </br></br>
+        <input type="submit" value="Submit" />
+      </form>
+</body>
+</html>
